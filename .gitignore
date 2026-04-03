@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Maven
+backend/target/
+backend/apache-maven-*/
+backend/maven.zip
+backend/compile_log.txt
+backend/clean_log.txt
+backend/wrapper.jar
+
+# Spring Boot / IDE
+.idea/
+.vscode/
+*.iml
+*.class
+
+# Env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS
+.DS_Store
+Thumbs.db
